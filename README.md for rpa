@@ -1,0 +1,22 @@
+⚙️ Process Workflow
+The bot follows a systematic execution flow to ensure data integrity:
+
+Initialization: The bot launches the target web portal and authenticates.
+
+Data Extraction: It navigates to the attendance section and scrapes the required records.
+
+Data Processing: The raw data is cleaned, filtered, and formatted according to specific requirements.
+
+Reporting: Finally, the bot populates an Excel/CSV file and saves it to a designated local path.
+
+💡 Key Features
+Error Handling: Implemented Try-Catch blocks to handle web element loading timeouts and connection drops.
+
+Scalability: Designed to handle variable amounts of data without manual intervention.
+
+Efficiency: Reduced the time required to complete attendance tracking from minutes to seconds.
+
+🚀 How to Run
+Requirements: You must have UiPath Studio or UiPath Assistant installed.
+
+Environment Setup: Ensure your environment credentials (if any) are securely managed in the UiPath Orchestrator or local Config files.
