@@ -10,7 +10,7 @@ Language: Python
 
 Libraries: Pandas, NLTK, Scikit-learn, [Insert Model Library, e.g., TensorFlow/Keras or Scikit-learn]
 
-Environment: Jupyter Notebook / Google Colab
+Environment: Visual Studio Code
 
 ⚙️ Data Preprocessing Pipeline
 Raw text data was transformed into machine-readable format through the following steps:
